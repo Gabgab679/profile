@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+body {
+  color: #9272cf;
+  background-color: rgb(249, 249, 249);
+  font-family: 'lora', serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1 {
+  color:#4682A9;
+  font-family:'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+a {
+  color:#528dc9;
+  text-decoration:#575F7D;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#FFB7B7;
+}
+
+.card {
+  background: #faf7fa;
+  border: 1px solid rgb(237, 222, 245);
+  border-radius: 4px;
+  box-shadow: 0px, 4px, 16px;
+  text-align: center;
+  padding: 30px;
+  margin: 10px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding : 18px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
